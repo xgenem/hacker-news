@@ -21,7 +21,7 @@ const Home = () => {
   }, [])
 
   return (
-    <Box safeArea>
+    <Box bgColor="white" h="full" safeArea>
       <Box bgColor="orange.500" p="5">
         <Link href="https://news.ycombinator.com/">
           <Text fontWeight="extrabold">Hacker News</Text>
